@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calculator </title> 
+        <link rel="stylesheet" type="text/css" href="./calculator.css">    
+         <script type="text/javascript" src="calculator.js"> 
+        
+               
+        </script>
+        </head>
+        <body>
+        <div id="he">
+            <h2>Make your calculation easy...</h2>
+        </div>
+            <div class="div1">
+                <!-- <div><p id="par" placeholder="0" style="color:white"></p></div> -->
+                <div>
+                <input type="text" id="input" placeholder="0" readonly="readonly">
+                <input type="text" id="answer"  readonly="readonly">
+                </div>
+                <button class="btn btn-warning" style="height:60px;width:180px;margin-top:60px;padding:1px;background-color:darkred;color:white" onclick="clearScreen()">AC</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:60px;margin-left:-2px;background-color:gray;color:white" onclick="operate('/')">/</button>
+                <button class="btn" style="height:60px;width:88px;margin-top:60px;margin-left:-2px;background-color:gray;color:white" onclick="operate('*')">*</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('7')">7</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('8')">8</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3x;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('9')">9</button>
+                <button class="btn" style="height:60px;width:88px;margin-top:3x;margin-left:-2px;background-color:gray;color:white" onclick="operate('-')">-</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('4')">4</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('5')">5</button>
+                <button class="btn" style="height:60px;width:90px;margin-top:3x;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('6')">6</button>
+                <button class="btn" style="height:60px;width:88px;margin-top:3x;margin-left:-2px;background-color:gray;color:white" onclick="operate('+')">+</button>
+                <button class="btn" style="height:60px;width:90px;margin-bottom:3px;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('1')">1</button>
+                <button class="btn" style="height:60px;width:90px;margin-bottom:3x;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('2')">2</button>
+                <button class="btn" style="height:60px;width:90px;margin-bottom:3x;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('3')">3</button>
+                <button class="btn" style="height:60px;width:88px;margin-top:3x;margin-top:3px;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="backspace()">B</button>
+                <button class="btn" style="height:60px;width:182px;margin-top:3x;margin-left:-2px;background-color:rgb(47, 47, 47);color:white" onclick="dis('0')">0</button>
+                <button class="btn" style="height:60px;width:182px;margin-top:3x;margin-left:-2px;background-color:steelblue;color:white" onclick="compute()">=</button>
+                
+
+
+
+            </div>
+              
+        
+      </body>
